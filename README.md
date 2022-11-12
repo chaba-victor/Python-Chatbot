@@ -1,7 +1,3 @@
-# Python Chatbot Project 
-Today chatbots are everywhere, they are improving efficiency. Chatbot reduces the dependence on humans and can smartly answer the questions in real-time.
-
-A chatbot is an intelligent piece of software that is capable of communicating and performing actions similar to a human. Chatbots are used a lot in customer interaction, marketing on social network sites, and instant messaging the client. There are two basic types of chatbot models based on how they are built; Retrieval based and Generative based models.
 
   Project: Python Chatbot
 
@@ -19,11 +15,10 @@ A chatbot is an intelligent piece of software that is capable of communicating a
 
 
 
-
 # Python-Chatbot
-A chatbot is an intelligent piece of software that is capable of communicating and performing actions similar to a human. 
-Chatbots are used a lot in customer interaction, marketing on social network sites and instantly messaging the client. 
-There are two basic types of chatbot models based on how they are built; Retrieval based and Generative based models.
+Today, chatbots are almost everywhere and are improving in efficiency. A chatbot reduces human dependencies on giving feedback since it is real-time.
+
+A chatbot is an 'intelligent' piece of software that is capable of communicating and performing limited actions almost similarly to a human. Chatbots are used a lot in customer interaction and social media marketing. There are two basic types of chatbot models based on how they are built; Retrieval based and Generative based models.
 
 1. Retrieval based Chatbots
 A retrieval-based chatbot uses predefined input patterns and responses. It then uses some type of heuristic approach to select the appropriate response. 
@@ -31,21 +26,21 @@ It is widely used in the industry to make goal-oriented chatbots where we can cu
 
 2. Generative based Chatbots
 Generative models are not based on some predefined responses.
-They are based on seq 2 seq neural networks. It is the same idea as machine translation. 
+They are based on [seq 2 seq neural networks](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html). It is the same idea as machine translation. 
 In machine translation, we translate the source code from one language to another language but here, we are going to transform input into an output. 
 It needs a large amount of data and it is based on Deep Neural networks.
 
 About the Python Project – Chatbot
-In this Python project with source code, we are going to build a chatbot using deep learning techniques. 
+In this project, I try to build a chatbot using deep learning techniques. 
 The chatbot will be trained on the dataset which contains categories (intents), pattern and responses. 
-We use a special recurrent neural network (LSTM) to classify which category the user’s message belongs to and then we will give a random response from the list of responses.
+I use a special recurrent neural network (LSTM) to classify which category the user’s message belongs to and then give a random response from the list of responses.
 
-Let’s create a retrieval based chatbot using NLTK, Keras, Python, etc.
+This is a build of retrieval based chatbot using NLTK, Keras, Python, etc.
 
 
 Prerequisites
-The project requires you to have good knowledge of Python, Keras, and Natural language processing (NLTK). 
-Along with them, we will use some helping modules which you can download using the python-pip command.
+A good knowledge of Python, Keras, and Natural language processing (NLTK). 
+Alongside these, I used some helpful modules which you can download using the python-pip command.
 
                           pip install tensorflow, keras, pickle, nltk
 
