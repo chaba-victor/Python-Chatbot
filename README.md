@@ -61,7 +61,7 @@ Create training and testing data
 Build the model
 Predict the response
 
-1. Import and load the data file
+1. Import and load the data file.
 
 First, make a file name as train_chatbot.py. We import the necessary packages for our chatbot and initialize the variables we will use in our Python project.
 
@@ -123,7 +123,8 @@ Now we will lemmatize each word and remove duplicate words from the list. Lemmat
                                 pickle.dump(words,open('words.pkl','wb'))
                                 pickle.dump(classes,open('classes.pkl','wb'))
                                 
-3. Create training and testing data
+3. Create training and testing data.
+
 Now, we will create the training data in which we will provide the input and the output. Our input will be the pattern and output will be the class our input pattern belongs to. But the computer doesn’t understand text so we will convert text into numbers.    
 
                                 # create our training data
@@ -186,7 +187,8 @@ After training the model for 200 epochs, we achieved 100% accuracy on our model.
                                 
                                 
                                 
-  5. Predict the response (Graphical User Interface)
+  5. Predict the response (Graphical User Interface).
+  
 To predict the sentences and get a response from the user to let us create a new file
 ‘chatapp.py’.
 We will load the trained model and then use a graphical user interface that will predict the
@@ -306,7 +308,8 @@ SendButton.place(x=6, y=401, height=90)
 base.mainloop()
 
 
-6. Run the chatbot
+6. Run the chatbot.
+
 To run the chatbot, we have two main files; train_chatbot.py and chatapp.py.
 First, we train the model using the command in the terminal:
 
